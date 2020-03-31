@@ -1,0 +1,82 @@
+body {
+    background-color: #800080;
+    
+}
+
+#søkeboks {
+    position: absolute;
+    right: 3%;
+    width: 250px;
+    height: 32px;
+}
+
+#epostboks {
+    position: absolute;
+    width: 29px;
+}
+
+#register {
+    position: absolute;
+    bottom: 50%;
+    right: 40%;
+    left: 20%;
+    width: 1000px;
+}
+
+#registerTittel {
+    color: white;
+}
+
+
+
+#hovedtittel {
+    text-align: center;
+    position: absolute;
+    bottom: 700px;
+    right: 600px;
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#frontpage {
+    text-align: center;
+    position: absolute;
+    bottom: 400px;
+    right:720px;
+    color: white;
+    border: 20;
+  /*   border-color: white;
+    border-style: solid; */
+    height: 250px;
+    
+
+}
+
+/* #footer{
+    text-align: center;
+    position: absolute;
+    background-color: wheat;
+
+    bottom: 0;
+    width: 100%;
+    height: 45px;
+    
+
+}
+ */
+#annonseknapper {
+    
+    position: absolute;
+    bottom: 500px;
+    right: 810px;
+    
+    
+    
+}
+
+#forside {
+    position: absolute;
+    width: 1000px;
+    right: 20%;
+    bottom: 400px;
+}

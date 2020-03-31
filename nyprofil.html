@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+
+        <title>Eldrehjelp</title>
+        
+        
+    </head>
+    <body>
+        
+
+        <div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Eldrehjelp</a>
+            <button class="navbar-toggler" tyoe="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="new-item active">
+                        <a class="nav-link" href="index.html">Hjem</a><span class="sr-only"></span></a> <!--sr-only er en klasse spesielt brukt for screen readers.-->
+                    </li>
+                    <li class="new-item active">
+                        <a class="nav-link" href="annonser.html">Annonser</a>
+                    </li>
+                    <li class="new-item active">
+                        <a class="nav-link" href="frivillig.html">Registrer deg</a>
+                    </li>
+                    <li class="new-item active">
+                        <a class="nav-link" href="omoss.html">Om Oss</a>
+                    </li>
+                </ul>
+            </div>
+            </div>
+
+<br>
+
+    <!--Registreringsskjema-->
+
+    <div id="mainInnlogging" class="container">
+        <h2 style="color: white;">Registrer deg:</h2>
+        <div class="form-group">
+            <label for="text" style="color: white;">Fornavn:</label>
+            <input type="text" class="form-control" id="fornavn" placeholder="Skriv inn fornavn" name="fnavn">
+        </div>
+        <div class="form-group">
+            <label for="text" style="color:white;">Etternavn</label>
+            <input type="text" class="form-control" id="etternavn" placeholder="Skriv inn etternavn" navn="enavn">
+        </div>
+        <form method="post">
+            <div class="form-group">
+                <label class="control-label" for="date" style="color: white;">Dato:</label>
+                <input class="form-control" id="date" name="date" placeholder="MM/DD/YYYY" type="text"/>
+            </div>
+        </form>
+        <div class="form-group">
+            <label for="text" style="color:white;">Telefon:</label>
+            <input type="text" class="form-control" id="telefon" placeholder="Skriv inn ditt telefonnummer" navn="telefonNummer">
+        </div>
+        <div class="form-group">
+            <label for="email" style="color: white;">Epost:</label>
+            <input type="email" class="form-control" id="email" placeholder="Skriv inn epost" name="email">
+        </div>
+        <div class="form-group">
+            <label for="pwd" style="color: white;">Passord:</label>
+            <input type="password" class="form-control" placeholder="Skriv inn passord" id="pwd">
+        </div>
+        <div class="form-group">
+            <label for="pwd" style="color: white;">Gjenta passord:</label>
+            <input type="password" class="form-control" placeholder="Gjenta valgt passord" id="pwdRepeat">
+        </div>
+        <div class="form-group">
+            <label for="kundeValg" style="color: white;">Velg profiltype:</label>
+          
+            <select id="valg">
+                <option value="eldre">Eldre</option>
+                <option value="frivillig">Frivillig</option>
+            </select>
+
+            <form style="color: white;">
+                <p style="color: white;">Klikk på velg fil for å laste opp et bilde av deg</p>
+                <input type="file" id="myimg" name="filename">
+            </form>
+        </div>
+
+
+
+
+        
+        <a href="minprofil.html" type="button" class="btn btn-dark" role="button">Registrer deg</a>
+    </div>
+
+   <!--     
+        <div class="footer-copyright text-center py-3" id="footer">
+            © 2020 Copyright:
+            <a href="#">Team NY</a>
+         </div> -->
+       
+
+            <script src="main.js"></script>
+       
+        </nav>
+
+
+
+
+        

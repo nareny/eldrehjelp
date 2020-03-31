@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+
+        <title>Eldrehjelp</title>
+        
+        
+    </head>
+    <body>
+        
+
+        <div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Eldrehjelp</a>
+            <button class="navbar-toggler" tyoe="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="new-item active">
+                        <a class="nav-link" href="index.html">Hjem</a><span class="sr-only"></span></a> <!--sr-only er en klasse spesielt brukt for screen readers.-->
+                    </li>
+                    <li class="new-item active">
+                        <a class="nav-link" href="annonser.html">Annonser</a>
+                    </li>
+                    <li class="new-item active">
+                        <a class="nav-link" href="frivillig.html">Registrer deg</a>
+                    </li>
+                    <li class="new-item active">
+                        <a class="nav-link" href="omoss.html">Om Oss</a>
+                    </li>
+                </ul>
+            </div>
+            </div>
+
+<br>
+
+    <!--Registreringsskjema-->
+
+    <div id="mainInnlogging" class="container">
+        <h2 style="color: white;">Hva trenger du hjelp med?</h2>
+        <div class="form-group">
+            <label for="text" style="color: white;">Fornavn:</label>
+            <input type="text" class="form-control" id="fornavn" placeholder="Skriv inn fornavn" name="fnavn">
+        </div>
+        <div class="form-group">
+            <label for="text" style="color:white;">Etternavn:</label>
+            <input type="text" class="form-control" id="etternavn" placeholder="Skriv inn etternavn" navn="enavn">
+        </div>
+        <div class="form-group">
+            <label for="text" style="color:white;">Telefon:</label>
+            <input type="text" class="form-control" id="telefon" placeholder="Skriv inn ditt telefonnummer" navn="telefonNummer">
+        </div>
+        <div class="form-group">
+            <label for="text" style="color:white;">Epost:</label>
+            <input type="text" class="form-control" id="email" placeholder="Skriv inn din epost" navn="ePost">
+        </div>
+        <div class="form-group">
+            <label for="text" style="color:white;">Adresse</label>
+            <input type="text" class="form-control" id="adresse" placeholder="Skriv inn adresse" navn="adresseNorge">
+        </div>
+        <div class="form-group">
+            <label for="byer" style="color: white;">Velg by</label>
+            <select class="form-control" id="byListe">
+                <option>-</option>
+                <option>Alta</option>
+<option>Hammerfest</option>
+<option>Honningsvåg</option>
+<option>Kirkenes</option>
+<option>Vadsø</option>
+<option>Vardø</option>
+<option>Finnsnes</option>
+<option>Harstad</option>
+<option>Tromsø</option>
+<option>Bodø</option>
+<option>Brønnøysund</option>
+<option>Fauske</option>
+<option>Leknes</option>
+<option>Mo i Rana</option>
+<option>Mosjøen</option>
+<option>Narvik</option>
+<option>Sandnessjøen</option>
+<option>Sortland</option>
+<option>Stokmarknes</option>
+<option>Svolvær</option>
+<option>Levanger</option>
+<option>Namsos</option>
+<option>Nærøy</option>
+<option>Steinkjer</option>
+<option>Stjørdal</option>
+<option>Verdalsøra</option>
+<option>Trondheim</option>
+<option>Brekstad</option>
+<option>Orkanger</option>
+<option>Fosnavåg</option>
+<option>Kristiansund</option>
+<option>Molde</option>
+<option>Ulsteinvik</option>
+<option>Ålesund</option>
+<option>Åndalsnes</option>
+<option>Flora</option>
+<option>Førde</option>
+<option>Måløy</option>
+<option>Bergen</option>
+<option>Stord</option>
+<option>Odda</option>
+<option>Bryne</option>
+<option>Eigersund</option>
+<option>Haugesund</option>
+<option>Jørpeland</option>
+<option>Kopervik</option>
+<option>Sandnes</option>
+<option>Sauda</option>
+<option>Skudeneshavn</option>
+<option>Stavanger</option>
+<option>Åkrehamn</option>
+<option>Flekkefjord</option>
+<option>Kristiansand</option>
+<option>Farsund</option>
+<option>Lyngdal</option>
+<option>Mandal</option>
+<option>Arendal</option>
+<option>Grimstad</option>
+<option>Lillesand</option>
+<option>Risør</option>
+<option>Tvedestrand</option>
+<option>Brevik</option>
+<option>Kragerø</option>
+<option>Langesund</option>
+<option>Notodden</option>
+<option>Porsgrunn</option>
+<option>Rjukan</option>
+<option>Skien</option>
+<option>Stathelle</option>
+<option>Holmestrand</option>
+<option>Horten</option>
+<option>Larvik</option>
+<option>Sandefjord</option>
+<option>Stavern</option>
+<option>Svelvik</option>
+<option>Åsgårdstrand</option>
+<option>Tønsberg</option>
+<option>Drammen</option>
+<option>Hokksund</option>
+<option>Hønefoss/Ringerike</option>
+<option>Kongsberg</option>
+<option>Fagernes</option>
+<option>Gjøvik</option>
+<option>Lillehammer</option>
+<option>Otta</option>
+<option>Vinstra</option>
+<option>Raufoss</option>
+<option>Elverum</option>
+<option>Hamar</option>
+<option>Kongsvinger</option>
+<option>Brumunddal</option>
+<option>Moelv</option>
+<option>Oslo</option>
+<option>Drøbak</option>
+<option>Lillestrøm</option>
+<option>Sandvika </option>
+<option>Ski </option>
+<option>Jessheim </option>
+<option>Askim</option>
+<option>Fredrikstad</option>
+<option>Halden</option>
+<option>Moss</option>
+<option>Mysen</option>
+<option>Sarpsborg</option>
+            </select> 
+
+
+
+
+        </div>
+        <div class="form-group">
+            <label for="text" style="color:white;">Postkode</label>
+            <input type="text" class="form-control" id="adressePostkode" placeholder="Skriv inn din postkode" navn="adresseNorgePostkode">
+        </div>
+        <div class="form-group">
+            <label for="tekstboks" style="color: white;" id="hjelpen">Skriv inn hva du trenger hjelp med:</label>
+            <textarea class="form-control" id="eksTekst" rows="3"></textarea>
+        </div>
+
+
+
+
+
+        
+        <a href="index.html" type="button" class="btn btn-dark" role="button">Send</a>
+    </div>
+
+          <!--footer-->
+         <!--  <div class="footer-copyright" id="footer">
+            © 2020 Copyright:
+            <a href="#">Team NY</a>
+         </div> -->
+       
+
+            <script src="main.js"></script>
+       
+        </nav>
+
+
+
+
+        
